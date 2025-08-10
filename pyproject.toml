@@ -31,6 +31,8 @@ prodigyopt = "^1.0"
 setuptools = "*"
 importlib-metadata = "^8.7.0"
 tokenizers = "^0.21.2"
+fastchat = {extras = ["mtbench"], version = "^0.1.0"}
+hf-xet = "^1.1.5"
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
