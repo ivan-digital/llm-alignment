@@ -1,2 +1,10 @@
 poetry.lock
 /.idea
+*.json
+/qwen3_twix_lora_sft_ru*
+/qwen3*
+__pycache__/
+*.py[cod]
+*$py.class
+*.log
+*.jsonl
