@@ -2,6 +2,10 @@
 
 Brief recipes and results for aligning Qwen3 models with LoRA-based SFT and DPO. This README distills the training scripts and experiment logs in this repo into a practical, minimal guide.
 
+## Workshop on Soft propmpting + LoRA SFT + KL regularisation explanation
+
+[Workshop notebook](Qwen3_Adapters_SoftPrompt_LoRA_KL_SFT_Workshop.executed.ipynb)
+
 ## What’s included
 - SFT: `sft_train.py` (LoRA SFT on T-Wix, MT-Bench-RU eval, optional KL regularization and early stopping)
 - DPO (single-task): `dpo_train.py` (auto preference pairs from TAT-QA + TAT-QA/MT-Bench/Instruction eval)
